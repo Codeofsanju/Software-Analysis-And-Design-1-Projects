@@ -1,0 +1,96 @@
+Sanjeev Sharma
+CSCI 135 - Project 1
+
+The main purpose of this assignment was to get familiar with the various loops in c++. We also practice the use of the modulo.
+
+
+Task 1. printReactangle
+
+A program that asks the user to input two positive integers, call them “width” and “height”. After that, the program should print out a rectangle of dot '.' characters with the requested width and height.
+
+If some input numbers happened to be non-positive, don’t print anything.
+
+Example:
+
+Please, enter the width = 12
+Please, enter the height = 7
+............
+............
+............
+............
+............
+............
+............
+
+
+Task 2. printGraph
+
+A modification of the previous task. Again, the program asks the user to input two positive integers.
+
+Then it should print a rectangle of '.', but now every 5th row and every 5th column should be printed with the hash '#' character instead of '.'.
+
+For this problem, I make use of the modulo operator (%).
+
+Example:
+
+Please, enter the width = 19
+Please, enter the height = 13
+###################
+#....#....#....#...
+#....#....#....#...
+#....#....#....#...
+#....#....#....#...
+###################
+#....#....#....#...
+#....#....#....#...
+#....#....#....#...
+#....#....#....#...
+###################
+#....#....#....#...
+#....#....#....#...
+Task 3. Graph paper
+
+
+Task 3: printGraphPaper
+The same as the previous task, but the horizontal lines are drawn with dashes '-', the vertical lines are drawn with the vertical bars '|', and their intersections drawn with pluses '+'.
+
+
+Example:
+
+Please, enter the width = 19
+Please, enter the height = 13
++----+----+----+---
+|    |    |    |   
+|    |    |    |   
+|    |    |    |   
+|    |    |    |   
++----+----+----+---
+|    |    |    |   
+|    |    |    |   
+|    |    |    |   
+|    |    |    |   
++----+----+----+---
+|    |    |    |   
+|    |    |    |   
+
+
+Task 4. printDiamond
+
+Ask the user to input a positive odd integer.
+
+The will keep asking until the input integer is indeed odd and positive.
+
+Assuming that the input number is N, the program prints a diamond that has the height N and the width N.
+
+Example:
+
+Please, enter a positive odd number: 10
+Please, enter a positive odd number: -3
+Please, enter a positive odd number: 7
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
