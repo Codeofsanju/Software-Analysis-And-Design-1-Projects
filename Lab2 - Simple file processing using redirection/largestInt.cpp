@@ -4,6 +4,20 @@
 #include <iostream>
 using namespace std;
 
-int main (){
+int largestInt();
 
+int main (){
+    cout << largestInt() << endl;
+    return 0;
+}
+
+int largestInt(){
+    int max = 0;        // max holder is declared at 0
+    int x;              // for integeres to be read from file
+    while(cin >> x){    // while all integers are read from file
+        if(x >= max){   // if integer is greator than previous max
+            max = x;    // set to max
+        }
+    }
+    return max;         // return max
 }
