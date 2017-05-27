@@ -1,0 +1,10 @@
+CSCI 135/136
+Sanjeev Sharma
+
+LAB #2: Simple file processing using redirection.
+
+Task 1: largestInt - This program reads the file redirected to standard input. The file contains positive integers. After reading the file, the program prints out the largest integer found in the file. 
+
+Task 2: largestDifference - This program reads the file redirected to standard input. The file contains positive integers. After reading the file, the program prints out the largest difference between two integers found in the file. 
+
+Task 3: printBarGraph - This program reads the file redirected to standard input. The file contains positive integers. After reading the file print a bar chart, such that each integer N read from the file is show as a group of N vertical bar symbols |.
