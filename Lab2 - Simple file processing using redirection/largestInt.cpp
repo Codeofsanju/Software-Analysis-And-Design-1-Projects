@@ -7,7 +7,7 @@ using namespace std;
 int largestInt();
 
 int main (){
-    cout << largestInt() << endl;
+    cout << "Largest integer in file is " <<largestInt() << endl;
     return 0;
 }
 
