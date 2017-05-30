@@ -1,0 +1,10 @@
+CSCI 135/136
+Sanjeev Sharma
+
+LAB #3: Functions
+
+Task 1: isEven - is_even(int n) returns true when the aregument is n even integer
+
+Task 2: numOfDigits - num_of_digits(int n) computes the number of decimal digits in the argument.
+
+Task 3: firstAndLast - int last(int n) return the last digit of the argument. int first(int n) returns the first digit of the argument. The third function first_equals_last(int n) returns true if the first and the last digit of the argument are equl to each other.
