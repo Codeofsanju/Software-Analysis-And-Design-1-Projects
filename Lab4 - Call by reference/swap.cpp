@@ -14,6 +14,8 @@ int main(){
     cout << "a = " << a << " b = " << b << endl;
     swap(a, b);
     cout << "a = " << a << " b = " << b << endl;
+
+    return 0;
 }
 
 void swap(int &x, int &y){

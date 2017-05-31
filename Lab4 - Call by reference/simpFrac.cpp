@@ -39,6 +39,7 @@ int main(){
     simplify(aNeg, b);
     cout << " simplifies to: " << aNeg << "/" << b << endl;
 
+    return 0;
 
 }
 
