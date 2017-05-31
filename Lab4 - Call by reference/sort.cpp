@@ -1,6 +1,6 @@
 /*
     Author: Sanjeev Sharma
-    Description: Simplifying fractions: a function that sorts the values of the integer parameters passed by reference, so they become aranged from least to greatest.
+    Description: Sort: a function that sorts the values of the integer parameters passed by reference, so they become aranged from least to greatest.
 */
 #include <iostream>
 #include <cstdlib>
